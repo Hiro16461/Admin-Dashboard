@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+}
+
+.left-container {
+	padding: 20px;
+	min-height: 100vh;
+	background-color: cornflowerblue;
+	color: white;
+}
+
+.icon-bar {
+	display: flex;
+	align-items: center;
+}
+
+.icon-bar svg {
+	margin: 20px;
+}
+
+.header-head {
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.header-input {
+	flex: 1;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: 50px;
+	background-color: rgb(228, 226, 226);
+}
+
+img {
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	margin: 20px;
+}
+
+p {
+	font-weight: bold;
+}
+
+.header-under {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+
+.header-avatar {
+	display: flex;
+	align-items: center;
+}
+
+.buttons button {
+	padding: 20px;
+	margin: 20px;
+	border-radius: 50px;
+	background-color: cornflowerblue;
+	color: white;
+}
+
+.main {
+	display: grid;
+	grid-template-areas: 'projects projects announcement' 'projects projects announcement' 'projects projects trending';
+}
+
+.projects {
+	grid-area: projects;
+	background-color: white;
+}
+
+.projects h1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.projects p {
+	font-size: 12px;
+	color: rgb(107, 107, 107);
+}
+
+.project {
+	border: 1px solid silver;
+	border-left: 10px solid orange;
+	margin: 20px;
+}
+
+.announcements {
+	background-color: white;
+}
+
+.maintenance-main {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.maintenance-lorem {
+	font-size: 12px;
+	font-weight: 100;
+	color: rgb(107, 107, 107);
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgb(107, 107, 107);
+}
+
+.trending-container {
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
